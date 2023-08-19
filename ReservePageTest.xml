@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ReservePage" verbose="1" >
+    <test name="ReservePageTest" >
+        <classes>
+            <class name="AutomationAssessment.TestCases.ReservePageTest" />
+        </classes>
+    </test>
+
+    <test name="HomeTest">
+        <classes>
+            <class name="HomeTest"/>
+        </classes>
+    </test>
+</suite>
